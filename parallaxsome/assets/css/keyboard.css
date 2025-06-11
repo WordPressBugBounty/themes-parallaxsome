@@ -1,0 +1,291 @@
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+    border-color: #ccc #bbb #aaa;
+    box-shadow: none;
+}
+
+.comment-navigation a:focus:before, 
+.posts-navigation a:focus:before,
+.post-navigation a:focus:before {
+    color:#e23815;
+}
+
+.single-slide-wrap .slide-button a:focus {
+    color:#000000;
+}
+
+.single-slide-wrap .slide-button a:focus:before {
+    transform:scaleX(1);
+    -webkit-transform:scaleX(1);
+    -moz-transform:scaleX(1);
+}
+
+.ps-front-slider-wrapper .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background-color: #e23815;
+}
+
+.ps-whole-header #top-site-navigation ul li a:focus, 
+.ps-whole-header .top-social-icons a:focus  {
+    color: #ffffff;
+}
+
+.ps-whole-header #top-site-navigation ul ul a:focus {
+    color: #e23815;
+}
+.ps-whole-header #top-site-navigation ul > li:focus > ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+.ps-whole-header .top-social-icons a:focus span {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transform-origin:0 0;
+    -moz-transform-origin:0 0;
+    transform-origin:0 0;
+    display: inline-block;
+}
+
+.main-navigation ul li:focus > a:after,
+.main-navigation ul li:focus > a:after{
+    width: 100%;
+}
+
+.main-navigation ul li:focus > ul.sub-menu,
+.main-navigation ul li:focus-within > ul.sub-menu,
+.main-navigation ul li:focus > ul.children {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+
+.main-navigation ul ul.sub-menu li:focus ul,
+.main-navigation ul ul.sub-menu li.focus ul {
+	left: 100%;
+    top:0;
+}
+
+.main-navigation.ps-floating-menu ul li:focus span {
+    -webkit-box-shadow: inset 0 0 0 2px #e23815;
+    -moz-box-shadow: inset 0 0 0 2px #e23815;
+    box-shadow: inset 0 0 0 2px #e23815;
+    height: 12px;
+    width:12px;
+}
+
+.main-navigation.ps-floating-menu ul li:focus .px-tooltip {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform:translate(0,-50%);
+    -moz-transform:translate(0,-50%);
+    transform:translate(0,-50%);
+}
+
+.team-info-focus {
+    background:#f5f5f5;
+    width: 233px;
+    padding: 20px;
+    text-align: left;
+    height: 100%;
+}
+
+.team-image-container:focus {
+    position: relative;
+    left: -230px;
+    width: 215%;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.team-image-container:focus .team-info-wrapper {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0); 
+    transform: translateX(0);
+    -webkit-transition: -webkit-transform .4s, opacity .1s;
+    -moz-transition: -moz-transform .4s, opacity .1s;
+    -ms-transition: -ms-transform .4s, opacity .1s;
+    -o-transition: -o-transform .4s, opacity .1s;
+    transition: transform .4s, opacity .1s;
+}
+
+.section-content-wrapper ul li:first-child .team-image-container:focus {
+    right: -233px;
+    left: 0;
+    z-index: 99;
+}
+
+.ps-section-viewall a:focus {
+    background-color:#e23815;
+    color: #ffffff;
+}
+
+.service-nav-tab li a:focus, 
+.service-nav-tab li.active a {
+    color:#e23815;
+}
+
+.service-tab-content .content-right .ps-btn:focus, 
+.service-tab-content .tab-pane .ps-btn:focus {
+    background-color:#ffffff;
+    color:#e23815;
+}
+
+#section-testimonials .section-content-wrapper .bx-wrapper:focus .bx-controls-direction a{
+    opacity: 1;
+}
+
+.ps-protfolio-wrapper ul#psProjects li:focus figure:before {
+    opacity: 1;
+}
+
+.ps-protfolio-wrapper ul#psProjects li:focus .project-info-wrap{
+    background-color:#e23815;
+}
+
+.ps-protfolio-wrapper ul#psProjects li:focus .project-title, 
+.ps-protfolio-wrapper ul#psProjects li:focus .post-cat-name {
+    color: #ffffff;
+}
+
+.ps-protfolio-wrapper ul#psProjects li:focus .project-title:before {
+    background-color: #ffffff;
+}
+
+.ps-protfolio-wrapper ul#psProjects li:focus .project-icons a {
+    opacity: 1;
+    top:50%;
+}
+
+#section-portfolio .project-icons a:focus {
+    background-color:#ffffff;
+    color: #e23815;
+    border-color: #ffffff;
+}
+
+.ps-protfolio-wrapper .lSAction a:focus {
+    opacity: 1;
+}
+
+#section-blog .ps-blog-image a:focus img {
+    transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+}
+
+.ps-blog-poston a:focus, 
+#primary .blog-content-wrap a:focus {
+    color:#e23815;
+}
+
+a.ps-more-button:focus {
+    color:#e23815;
+    border:2px solid rgba(226, 226, 226, 0);
+}
+
+a.ps-more-button:focus:before, 
+a.ps-more-button:focus:after {
+    transform:scale(1);
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+}
+
+#section-blog .ps-section-viewall a:focus {
+    background-color:#e23815;
+}
+
+#section-contact input[type=submit]:focus {
+    background-color:transparent;
+    color: #e23815;
+}
+
+#section-contact .ps-mag-caption:focus {
+    color: #e23815;
+}
+
+.widget-area .widget a:focus {
+    color:#e23815;
+}
+
+.ps-top-footer .ps-footer-widget a:focus {
+    color:#e23815;
+}
+
+.footer-social-wrap .ps-social-icons-wrapper a:focus {
+    background-color:#e23815;
+    color: #ffffff;
+    border-color: #e23815;  
+}
+
+footer.site-footer .site-info a:focus {
+    color:rgba(226, 29, 21, 0.78);
+}
+
+#scroll-up:focus {
+    opacity: 1;
+}
+
+#primary article.post .entry-meta a:focus {
+    color:#e23815;
+}
+
+.edit-link a:focus:before {
+    color:#e23815;
+}
+
+.arcitle-more-btn a:focus,
+.arcitle-more-btn a:focus:after {
+    color:#e23815;
+}
+
+.nav-links a.page-numbers:focus {
+    background-color:#e23815;
+    color:#ffffff;
+    border-color:#e23815;
+}
+
+.comments-area input[type=submit]:focus {
+    background-color:#454545;
+    border-color:#454545;
+}
+
+.comments-area a:focus, 
+.comments-area .comment-author .fn a:focus {
+    color: #e23815;
+}
+
+.comments-area .reply .comment-reply-link:focus {
+    background-color:#e23815;
+    color:#ffffff;
+    border-color:#e23815;
+}
+
+.main-navigation ul ul ul,
+.main-navigation ul ul.sub-menu li:focus > ul, 
+.main-navigation ul ul.sub-menu li.focus > ul {
+    left:0;
+    right: auto;
+    border:none;
+    position: static;
+}
+
+.section-content-wrapper ul li:nth-of-type(2n+1) .team-image-container:focus {
+    right: -233px;
+    left: 0;
+    z-index: 99;
+}
+
+.section-content-wrapper ul li:first-child .team-image-container:focus, 
+.section-content-wrapper ul li:nth-of-type(2n+1) .team-image-container:focus  {
+    right: auto; 
+    left: -233px; 
+    z-index: 99; 
+}
